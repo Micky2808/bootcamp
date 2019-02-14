@@ -1,0 +1,23 @@
+<body>
+<sly data-sly-include="header.html"></sly>
+
+<section id="main" class="wrapper style1">
+    <div class="major">
+        <h2>${pageProperties.jcr:title}</h2>
+    </div>
+    <div class="container">
+
+        <!-- Content -->
+        <section id="content">
+            <sly data-sly-resource="${ @path='mid-par', resourceType='foundation/components/parsys'}"></sly>
+        </section>
+
+        <div data-sly-resource="${ @path='tag', resourceType='demo/components/content/tag'}"></div>
+
+    </div>
+</section>
+
+<sly data-sly-include="footer.html"></sly>
+
+<sly data-sly-include="customfooterlibs.html"></sly>
+</body>

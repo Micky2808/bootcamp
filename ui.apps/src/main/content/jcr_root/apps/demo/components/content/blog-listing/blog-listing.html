@@ -1,0 +1,33 @@
+<sly data-sly-test="${wcmmode.edit}"
+     data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+
+<div class="major">
+    <h2>${properties.blogtitle}</h2>
+    <p>${properties.blogdescription}</p>
+</div>
+<sly data-sly-use.blogModel="com.bootcamp.core.content.BlogModel">
+    <div class="row blog-listing-main" data-total-res = "${blogModel.totalResults}"
+         data-res-path="${resource.path}" data-button-text="${properties.btntext}">
+        <sly data-sly-list.listBlogs="${blogModel.blogs}" len="${listBlogs.count}">
+            <div class="4u 6u(2) 12u$(3)">
+                <article class="box post">
+                    <a href="${listBlogs.path}" class="img fit"><img src="${listBlogs.image}" alt=""></a>
+                    <h3>${listBlogs.title}</h3>
+                    <p>${listblogs.description}</p>
+                    <ul class="actions">
+                        <li><a href="${listBlogs.path}" class="button">${properties.btntext}</a></li>
+                    </ul>
+                </article>
+            </div>
+        </sly>
+    </div>
+
+    <div class="btn-showmore" data-sly-test="${blogModel.resultLen}">
+        <button class="showmore">${properties.showmorebtntext}</button>
+    </div>
+
+</sly>
+
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="Display"
+     class="cq-placeholder file cq-dd-image"/>

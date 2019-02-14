@@ -1,0 +1,41 @@
+<sly data-sly-test="${wcmmode.edit}"
+     data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+<br/><br/>
+<div class="btn-display-data">
+    <table id='table-data' class='table table-bordered'>
+        <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Shipping Address</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Email</th>
+                </tr>
+        </thead>
+        <tbody class="customerTableBody">
+                <tr class='row-disp'>
+                    <td>${customer.customerId}</td>
+                    <td>${customer.name}</td>
+                    <td>${customer.shippingAddress}</td>
+                    <td>${customer.state}</td>
+                    <td>${customer.zipCode}</td>
+                    <td>${customer.email}</td>
+                <tr/>
+        </tbody>
+    </table>
+
+    <iframe id="txtArea1" style="display:none"></iframe>
+</div>
+
+<div id="index-list">
+</div>
+
+<div class="export-btns">
+    <button class="export-excel">Export to Excel</button>
+    <button class="export-pdf">Export to PDF</button>
+</div>
+
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="customer data display"
+     class="cq-placeholder file cq-dd-image"/>

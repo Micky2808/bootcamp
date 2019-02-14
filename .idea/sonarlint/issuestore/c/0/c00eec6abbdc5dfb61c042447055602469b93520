@@ -1,0 +1,10 @@
+
+Gsquid:S2629&"$Invoke method(s) only conditionally.(ÙƒÎ¯ýÿÿÿÿ8„–é“Œ-
+„squid:S3457&"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ÙƒÎ¯ýÿÿÿÿ8¬»ØäŒ-
+Bsquid:S2629*"$Invoke method(s) only conditionally.(ý¸·–8„–é“Œ-
+Gsquid:S26293"$Invoke method(s) only conditionally.(ä¥”Öúÿÿÿÿ8„–é“Œ-
+squid:S3457*"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ý¸·–8„–é“Œ-
+Gsquid:S2629."$Invoke method(s) only conditionally.(ðÚÚ×ÿÿÿÿÿ8„–é“Œ-
+„squid:S34573"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ä¥”Öúÿÿÿÿ8„–é“Œ-
+„squid:S3457."aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ðÚÚ×ÿÿÿÿÿ8„–é“Œ-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ÛŸ¾ˆþÿÿÿÿ8‘•ð£‰-

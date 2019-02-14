@@ -1,0 +1,5 @@
+#base=js
+jspdf.min.js
+jspdf.plugin.autotable.min.js
+tableHTMLExport.js
+customer-display.js

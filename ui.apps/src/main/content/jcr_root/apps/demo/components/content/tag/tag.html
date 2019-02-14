@@ -1,0 +1,12 @@
+<sly data-sly-test="${wcmmode.edit}"
+     data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+<sly data-sly-use.data="com.bootcamp.core.content.TagIdentifier" data-sly-test="${data.tagMap.size > 0}">
+Tags :
+<ul data-sly-list="${data.tagMap}">
+    <li><a data-tag="${item}" class="tags" href="javascript:void(0)">${data.tagMap[item]}</a></li>
+</ul>
+</sly>
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="Tags"
+     class="cq-placeholder file cq-dd-image"/>
+

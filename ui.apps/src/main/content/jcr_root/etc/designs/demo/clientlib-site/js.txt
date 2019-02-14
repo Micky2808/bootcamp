@@ -1,0 +1,12 @@
+#base=js
+jquery.min.js
+bootstrap.js
+bootstrap.bundle.js
+jquery.dropotron.min.js
+jquery.scrollgress.min.js
+jquery.scrolly.min.js
+jquery.slidertron.min.js
+skel.min.js
+skel-layers.min.js
+init.js
+script.js

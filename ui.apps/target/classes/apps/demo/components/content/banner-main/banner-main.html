@@ -1,0 +1,18 @@
+<sly data-sly-test="${wcmmode.edit}"
+     data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+<section class="banner" style="background-image:url(${properties.backgroundimg  @context='uri'})">
+    <div class="inner" data-sly-use.ctaGenerator="com.bootcamp.core.content.CTAGenerator"
+         data-sly-use.ctaUsingChildResource="com.bootcamp.core.content.CtaUsingChildResource">
+        <h2>${properties.heading @context='html'}</h2>
+        <p>${properties.para @context='html'}</p>
+
+
+        <ul class="actions" data-sly-list.cta="${ctaUsingChildResource.imageText}">
+            <li><a href="${cta.redirectionLink}" class="button big scrolly">${cta.title}<img src="/content/dam/demo/reverse.png" style="width: 12px; position: relative; top: -2px;"></a></li>
+        </ul>
+
+    </div>
+</section>
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="Banner"
+     class="cq-placeholder file cq-dd-image"/>

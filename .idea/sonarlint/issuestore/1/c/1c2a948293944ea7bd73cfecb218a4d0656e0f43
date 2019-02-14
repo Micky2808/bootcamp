@@ -1,0 +1,11 @@
+
+Fsquid:S1659,"#Declare "state" on a separate line.(ÀÒËÿÿÿÿÿ8ıæ½ÀŒ-
+ksquid:S22592"HA "NullPointerException" could be thrown; "connection" is nullable here.(Úòİøÿÿÿÿ8ıæ½ÀŒ-
+Hsquid:S1659+"%Declare "zipCode" on a separate line.(ŠÃÖ¶ıÿÿÿÿ8ŠÕÙ‘Œ-
+Msquid:EmptyStatementUsageCheck0"Remove this empty statement.(åÒú8ıæ½ÀŒ-
+Psquid:S1659,"-Declare "shippingAddress" on a separate line.(ÀÒËÿÿÿÿÿ8ıæ½ÀŒ-
+Nsquid:S2065"0Remove the "transient" modifier from this field.(×è¬ 8şÁ•ÁŒ-
+Xsquid:S11412"5Extract this nested try block into a separate method.(Úòİøÿÿÿÿ8ıæ½ÀŒ-
+msquid:S00116"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´£ˆä8ıæ½ÀŒ-
+Fsquid:S1659,"#Declare "email" on a separate line.(ÀÒËÿÿÿÿÿ8ıæ½ÀŒ-
+Psquid:S11991"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ıæ½ÀŒ-

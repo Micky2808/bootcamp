@@ -1,0 +1,33 @@
+div#index-list {
+    text-align: center;
+    margin : 20px;
+}
+
+div.export-btns{
+    padding:10px;
+    text-align:center;
+}
+
+.export-btns button{
+    margin : 5px;
+}
+
+#index-list a {
+    margin: 10px;
+    border: none;
+}
+
+.table-bordered thead th, .table-bordered thead td {
+    text-align: center;
+}
+
+.table-bordered {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#index-list a.active {
+    color: green;
+    font-size: 24px;
+}
